@@ -1,0 +1,71 @@
+#a
+{
+ color:brown;
+}
+#b
+{
+    color:red;
+    font-size: 25px;
+    background-color:blanchedalmond;
+}
+
+
+#c{
+    color: red;
+    font-size: 25px;
+    background-color:blanchedalmond;
+}
+.button{
+    background-color:black;
+    color:white;
+    border-radius: 12px;
+}
+.message{
+    color:green;
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+    padding: 5% 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.section-1{
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: blue;
+    font-size:20px;
+
+}
+
+.list{
+    width: 30%;
+    height: 600px;
+    display: flex;
+    padding: 20px;
+    flex-flow: column wrap;
+    border: 2px dotted black;
+    
+}
+
+label{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
